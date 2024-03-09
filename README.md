@@ -14,15 +14,26 @@ The focus is on functionality and user experience rather than advanced features 
 
 ## Steps to set up the project
    
+
 ## Run Locally
+
 
 Clone the project
 
 ```bash
   git clone https://github.com/bhaskar552/Task-Buddy.git
 ```
+Go to the .env file in backend folder and paste you own mongodb url and access-token-secret
 
-Go to the root directory
+```bash
+  MONGODB_URL = "you url"
+  ACCESS_TOKEN_SECRET = "your token"
+
+
+```
+
+
+Go to the root directory of this project in your terminal 
 
 ```bash
   cd Task-Buddy
@@ -58,11 +69,10 @@ start frontend
 ```bash
   npm start
 ```
-
-
-
-
 It's important to note that these steps assume that you have Node.js and npm (Node Package Manager) installed on your system. If you don't have these tools installed, you'll need to download and install them first before following the above steps.
+
+
+
 ## Implemented Features
 
   Task Management: Users can create, read, update, and delete tasks with a title, description, and status (e.g., "To Do," "In Progress," "Done").
